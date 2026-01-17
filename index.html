@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>IA en el Mundo Profesional TI</title>
+
+<style>
+
+/* --- ESTILOS GENERALES (CSS) --- */
+
+:root {
+
+--primary-color: #0f172a; /* Azul oscuro elegante */
+
+--accent-color: #3b82f6; /* Azul vibrante */
+
+--bg-color: #f8fafc; /* Gris muy claro */
+
+--text-color: #334155; /* Gris oscuro para texto */
+
+--white: #ffffff;
+
+}
+
+
+
+* {
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+
+
+body {
+
+font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+line-height: 1.6;
+
+color: var(--text-color);
+
+background-color: var(--bg-color);
+
+}
+
+
+
+/* --- HEADER / HERO --- */
+
+header {
+
+background-color: var(--primary-color);
+
+color: var(--white);
+
+padding: 4rem 1rem;
+
+text-align: center;
+
+}
+
+
+
+header h1 {
+
+font-size: 2.5rem;
+
+margin-bottom: 1rem;
+
+}
+
+
+
+header p {
+
+font-size: 1.2rem;
+
+opacity: 0.9;
+
+max-width: 600px;
+
+margin: 0 auto;
+
+}
+
+
+
+/* --- CONTENEDORES --- */
+
+.container {
+
+max-width: 1000px;
+
+margin: 0 auto;
+
+padding: 2rem 1rem;
+
+}
+
+
+
+section {
+
+margin-bottom: 3rem;
+
+}
+
+
+
+h2 {
+
+color: var(--primary-color);
+
+border-bottom: 3px solid var(--accent-color);
+
+display: inline-block;
+
+margin-bottom: 1.5rem;
+
+padding-bottom: 0.5rem;
+
+}
+
+
+
+/* --- TARJETAS (GRID) --- */
+
+.grid-cards {
+
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+gap: 2rem;
+
+}
+
+
+
+.card {
+
+background: var(--white);
+
+border-radius: 8px;
+
+padding: 1.5rem;
+
+box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+
+transition: transform 0.2s ease;
+
+}
+
+
+
+.card:hover {
+
+transform: translateY(-5px);
+
+box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+.card h3 {
+
+color: var(--accent-color);
+
+margin-bottom: 0.5rem;
+
+}
+
+
+
+/* --- IMÁGENES / MARCADORES --- */
+
+.placeholder-img {
+
+width: 100%;
+
+height: 180px;
+
+background-color: #e2e8f0;
+
+color: #64748b;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+text-align: center;
+
+border-radius: 4px;
+
+margin-bottom: 1rem;
+
+font-size: 0.9rem;
+
+border: 2px dashed #cbd5e1;
+
+padding: 1rem;
+
+}
+
+
+
+img {
+
+max-width: 100%;
+
+height: auto;
+
+border-radius: 4px;
+
+}
+
+
+
+/* --- FOOTER / CONTACTO --- */
+
+footer {
+
+background-color: var(--primary-color);
+
+color: var(--white);
+
+text-align: center;
+
+padding: 2rem 1rem;
+
+margin-top: 4rem;
+
+}
+
+
+
+.btn {
+
+display: inline-block;
+
+background-color: var(--accent-color);
+
+color: var(--white);
+
+padding: 0.75rem 1.5rem;
+
+text-decoration: none;
+
+border-radius: 5px;
+
+margin-top: 1rem;
+
+font-weight: bold;
+
+transition: background 0.3s;
+
+}
+
+
+
+.btn:hover {
+
+background-color: #2563eb;
+
+}
+
+
+
+/* --- RESPONSIVE --- */
+
+@media (max-width: 768px) {
+
+header h1 { font-size: 2rem; }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<header>
+
+<h1>La IA como Copiloto en TI</h1>
+
+<p>Una exploración de cómo la Inteligencia Artificial está redefiniendo la eficiencia y la creatividad en el sector tecnológico.</p>
+
+</header>
+
+
+
+<main class="container">
+
+
+<section id="intro">
+
+<h2>El Nuevo Estándar</h2>
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+
+<div style="flex: 1; min-width: 300px;">
+
+<p>
+
+La integración de la Inteligencia Artificial en el flujo de trabajo diario de un profesional de TI ya no es el futuro, es el presente.
+
+Lejos de reemplazar a los desarrolladores, herramientas como los LLMs (Modelos de Lenguaje) actúan como "multiplicadores de fuerza",
+
+permitiendo resolver problemas complejos en una fracción del tiempo habitual.
+
+</p>
+
+</div>
+
+<div style="flex: 1; min-width: 300px;">
+
+
+<img src="AI-coding.jpg" alt="Usando IA en el codigo">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="beneficios">
+
+<h2>Impacto en el Desarrollo</h2>
+
+<div class="grid-cards">
+
+<article class="card">
+
+<h3>01. Código Eficiente</h3>
+
+<p>Asistentes de IA sugieren sintaxis, completan funciones repetitivas y ayudan a documentar el código mientras se escribe, reduciendo la carga cognitiva.</p>
+
+</article>
+
+
+<article class="card">
+
+<h3>02. Debugging Rápido</h3>
+
+<p>La IA puede analizar logs de errores extensos y señalar la causa raíz probable en segundos, proponiendo soluciones efectivas para bugs complejos.</p>
+
+</article>
+
+
+
+<article class="card">
+
+<h3>03. Aprendizaje Continuo</h3>
+
+<p>Funciona como un tutor personalizado que puede explicar bases de código heredadas (legacy code) o enseñar nuevos frameworks sobre la marcha.</p>
+
+</article>
+
+</div>
+
+</section>
+
+
+
+<section id="etica">
+
+<h2>El Factor Humano</h2>
+
+<p>
+
+A pesar del poder de la IA, el rol del ingeniero evoluciona hacia la <strong>arquitectura y la supervisión</strong>.
+
+La capacidad de discernir si una solución generada por IA es segura, escalable y ética sigue siendo una habilidad exclusivamente humana e insustituible.
+
+</p>
+
+</section>
+
+
+
+</main>
+
+
+
+<footer>
+
+<h3>Conectemos</h3>
+
+<p>Este proyecto fue creado para demostrar competencias en desarrollo web y comprensión tecnológica.</p>
+
+<br>
+
+<a href="https://github.com/Angel-Reyes-stack" target="_blank" class="btn">Ver mi GitHub</a>
+
+
+<br><br>
+
+<small>&copy; 2026 - Creado por [Angel Stalin Reyes Vera]</small>
+
+</footer>
+
+
+
+</body>
+
+</html>
